@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scrollview"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="#FFECB3"
+    tools:context="com.example.android.quizzesapp.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:padding="20dp"
+        android:text="Review Quiz"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:text="1-Could You Please Write Four Kinds Of Views "
+        />
+
+    <EditText
+        android:id="@+id/Edit_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Write The Answer"
+        android:inputType="textCapWords"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:text="2-There Are Five Kinds Of ViewGroup ?"
+        />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+
+        <RadioButton android:id="@+id/radio_pirates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:text="Yes"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radio_ninjas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="No"
+            android:onClick="onRadioButtonClicked"/>
+
+
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Submit"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/button" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:padding="20dp"
+           android:text="3-Void returns ....."
+       />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="String"
+        android:textSize="16dp"
+        android:paddingLeft="24dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="int"
+        android:textSize="16dp"
+        android:paddingLeft="24dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Nothing"
+        android:textSize="16dp"
+        android:paddingLeft="24dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Submit"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/button1" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:padding="20dp"
+           android:text="4-The Text Size with......"
+       />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="dp"
+        android:textSize="16dp"
+        android:paddingLeft="24dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="sp"
+        android:textSize="16dp"
+        android:paddingLeft="24dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Nothing"
+        android:textSize="16dp"
+        android:paddingLeft="24dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Submit"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/button2" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:textSize="20dp"
+           android:padding="20dp"
+           android:text="5-Boolean is a ....."
+       />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Method"
+        android:textSize="16dp"
+        android:paddingLeft="24dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Data Type"
+        android:textSize="16dp"
+        android:paddingLeft="24dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Variable Name"
+        android:textSize="16dp"
+        android:paddingLeft="24dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Submit"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/button3" />
+
+
+</LinearLayout>
+</ScrollView>
